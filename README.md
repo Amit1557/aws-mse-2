@@ -115,3 +115,6 @@ The raw sales data was stored in CSV format in Amazon S3 and queried using Amazo
 The same monthly query was executed on both tables. The data scanned decreased from 1.54 MB to 11.03 KB after conversion to Parquet and partitioning, demonstrating more efficient data scanning and the potential to reduce Athena query costs.
 
 Although the Parquet query had a higher observed execution time in this small experiment, the reduction in scanned data demonstrates the storage and query-efficiency benefits of Parquet and partitioning.
+
+
+073276525111
